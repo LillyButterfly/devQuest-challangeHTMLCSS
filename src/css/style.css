@@ -1,0 +1,97 @@
+
+:root {
+    --primary-color: #57b141;
+    --btn-hover:#38f609;
+    --text-primary-color: black;
+    --text-secondary-color: white;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+    font-size: 1.5rem;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+.header .menu {
+    display: flex;
+  
+    align-items: center;
+    gap: 30px;
+}
+
+.header .menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header ul li a{
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: var(--primary-color);
+    color: var(--text-secondary-color);
+}
+
+.header .btn-cadastro {
+    background-color: var(--primary-color);
+    color: var(--text-secondary-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.header .btn-cadastro:hover {
+    background-color: var(--btn-hover);
+}
+
+@media (max-width: 670px) {  
+    .header {
+        flex-direction: column;
+        font-size: 4rem;
+    }
+
+    .header .menu {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .menu ul li a {
+        gap: 30px;
+        padding: 17px 40px; 
+    }
+
+    .btn-cadastro {
+        width: 150px;
+    }
+}
