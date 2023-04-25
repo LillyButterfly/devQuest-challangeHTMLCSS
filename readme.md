@@ -2,7 +2,7 @@
 <head></head>
 <body>
 
-<img src="https://user-images.githubusercontent.com/88951197/234160315-46a53252-5003-4f6b-b924-bf23016e87bc.png" align="center"/>
+<div align="center"> <img src="https://user-images.githubusercontent.com/88951197/234160315-46a53252-5003-4f6b-b924-bf23016e87bc.png"/> </div>
 
  <br>
 
@@ -13,14 +13,14 @@
 
 <br>
  
- <div align="center">  
-  
+ <div align="center">    
   <img src="https://user-images.githubusercontent.com/88951197/234162160-c7117a1f-d00e-4c2d-875c-b1f03a46c2c5.png" align="center" width="750px"/>
  
  <br>
  <br>
  
- <img src="https://user-images.githubusercontent.com/88951197/234162474-fe27f947-713d-4edc-a149-7f8656624b7f.png" height="350px"/> </div>
+ <img src="https://user-images.githubusercontent.com/88951197/234162474-fe27f947-713d-4edc-a149-7f8656624b7f.png" height="350px"/> 
+ </div>
  
  
 
